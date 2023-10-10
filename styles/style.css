@@ -125,6 +125,28 @@ nav > .nav-bottom {
 
 header {
   grid-area: header;
+  display: gird;
+  grid-template-rows: 200px 300px;
+  grid-template-columns: 1fr;
+}
+
+header .header-top {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 5fr 3fr;
+}
+
+header search img:first-child,
+header .profile-area img:first-child {
+  height: 3rem;
+}
+
+header .profile-area img:nth-child(2) {
+  height: 4rem;
+}
+
+header .header-top search {
+  display: flex;
 }
 
 main {
