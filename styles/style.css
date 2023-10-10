@@ -46,3 +46,51 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/* my code begins here */
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
+}
+
+menu {
+  list-style-type: none;
+}
+
+nav {
+  color: white;
+  background-color: #1E90FF;
+  display: grid;
+  grid-template-rows: 100px 600px 300px;
+  grid-template-columns: 1fr;
+}
+
+nav menu li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav menu li img {
+  height: 2rem;
+}
+
+nav > .dashboard-logo {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 5fr;
+}
+
+nav > .nav-top {
+  display: grid;
+  grid-template-rows: repeat(6, 100px);
+  grid-template-columns: 1fr;
+}
+
+nav > .nav-bottom {
+  display: grid;
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: 1fr;
+}
