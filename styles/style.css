@@ -134,19 +134,37 @@ header .header-top {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 5fr 3fr;
+  align-items: center;
+  gap: 200px;
 }
 
 header search img:first-child,
 header .profile-area img:first-child {
-  height: 3rem;
+  height: 2rem;
 }
 
 header .profile-area img:nth-child(2) {
-  height: 4rem;
+  height: 3.5rem;
 }
 
 header .header-top search {
   display: flex;
+  gap: 10px;
+  padding-left: 50px;
+}
+
+header .header-top search input {
+  height: 2rem;
+  flex: 1;
+  border: 0;
+  border-radius: 10px;
+  background-color: #d1d5db;
+}
+
+header .profile-area {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 main {
