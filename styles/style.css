@@ -178,12 +178,12 @@ header .header-bottom {
 header .header-bottom .greeting {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 6fr;
 }
 
 header .header-bottom .greeting > img {
   height: 5rem;
-  place-self: center;
+  align-self: center;
 }
 
 header .header-bottom .greeting .name-with-handle {
@@ -198,12 +198,12 @@ header .header-bottom .action-buttons {
 
 header .header-bottom .action-buttons button {
   font-weight: 500;
-  height: 40px;
-  width: 120px;
+  height: 45px;
+  width: 110px;
   background-color: #0284c7;
   color: white;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 main {
