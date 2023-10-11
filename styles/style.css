@@ -59,7 +59,7 @@ body {
 .container {
   display: grid;
   grid-template-rows: 200px minmax(800px, auto);
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: auto 4fr;
   grid-template-areas: 
     "nav header"
     "nav main";
