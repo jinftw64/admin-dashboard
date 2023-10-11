@@ -129,6 +129,7 @@ header {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr;
   padding: 20px 50px;
+  box-shadow: 0 4px 12px -8px gray;
 }
 
 header .header-top {
