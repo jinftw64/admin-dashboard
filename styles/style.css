@@ -58,7 +58,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 200px 5fr;
   grid-template-columns: 1fr 4fr;
   grid-template-areas: 
     "nav header"
@@ -165,6 +165,27 @@ header .profile-area {
   display: flex;
   gap: 20px;
   align-items: center;
+}
+
+header .header-bottom {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 3fr 1fr;
+}
+
+header .header-bottom .greeting {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 4fr;
+}
+
+header .header-bottom .greeting > img {
+  height: 5rem;
+  place-self: center;
+}
+
+header .header-bottom .greeting .name-with-handle {
+  align-self: center;
 }
 
 main {
